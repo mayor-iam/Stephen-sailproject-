@@ -1,0 +1,150 @@
+/****** TARLE OF CONTENTS ********
+1. CSS Variables
+2. Utility CSS
+3. Common CSS
+*/
+/*
+1. Css variables
+*/
+:root {
+/ *------ Color variable -----*/
+-- action_error: ne53
+-- action_success: #2
+-- action_warning: Mef
+-- black_900: Oseee008
+.- black_900_19: 0m008
+-- black_900_13: 00000
+-- blue_gray_100: #d9
+-- blue_gray_200 33: 0mabbed133;
+.- blue_gray_200_4c: [wabbed14c;
+-- blue_gray_200 66: [mabbed166;
+-- blue_gray_200 99: wabbed199;
+.. blue_gray_50: Møfififi;
+-- blue_gray_50_01: Mse8ecf1;
+=- blue_gray_700: 08455864;
+-- blue_gray $00: 0#37474f;
+.- blue_gray_800_01: 0#3b4158;
+-- blue_gray_800 02: 0#394149;
+.- blue_gray_900: 0#333333;
+-- brand_info: #2194f1;
+-- brand_primary: #4caf4f;
+.. deep_orange_200: Møffbesd;
+-- deep_orange_300: sebssce;
+.- deep_purple_a700: #541747;
+-- default_white: Doffffff33;
+.- gray_100: #f5f5f5;
+-- gray_300: I scococo;
+-- gray_300_01: Msd9dbei;
+-- gray_300_02: Hsctete);
+-- gray_50: Mafafafa;
+.- gray_900: 0#212326;
+-- green_500_75: #4caf4f75;
+-- indigo_8e0: #3a3b7b;
+-- neutral_black_@: C#263238;
+.- neutral_black_1: C#212121;
+-- neutral_d_grey: [#4d4d4d;
+-- neutral_grey: #717171;
+.- neutral_grey_blue: rabbedi;
+.- neutral_1_grey: #88939e;
+-- neutral_silver: Mofsf7f9;
+-- neutral_white:
+-- primary_s_blue: 80671c0;
+-- red_300: #e58a7b;
+-- red_300_01: Macf6f64;
+-- red_480: adf5753;
+-- shade_$1: #438046;
+-- shade_52: #388e3b;
+.- shade_53: #237d31;
+-- shade_54: 1b5eif;
+.= shade_s5: Omef3d12;
+-- text_gray 300: 018191f;
+-- tint_ti: #66bb69;
+.- tint_tz: #81c784;
+.- tint_t3: #a5d6a7;
+-- tint_t4: #c8e6c9;
+-- tint_ts: Mae8f5e9;
+
+/ *------ Shadow variables ------* /
+=- Shadow-xS: 0 2px 4px 0 [mabbed133;
+-- shadow-sm: 0 8px 16px e Owabbed166;
+
+/ *.....- Border radius variables --....* /
+-- radius-xs: 2px;
+-- radius-sm: 4px;
+-- radius-nd: 6px;
+.- radius-lg: 8px;
+
+/ *...... Spacing variables --....* /
+-- space-xS: 2poc;
+.- space-sm: 8px;
+-- space-nd: 10px;
+-- space-lg: 12px;
+=- space-xl: 16px;
+-- space-2xl: 24px;
+-- Space-3xl: 30px;
+-- space-4x1: 32px;
+.- space-5xl: 40px;
+-- space-6xl: 48px;
+-- space-7xl: 126px;
+}
+/*
+2. Utility CSS
+*****/
+.flex-col-center-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/****
+3. Common CSS
+.......*/
+.sectiontitle-span {
+    color: var( -- neutral_d_grey);
+}
+
+.sectiontitle-span-1 {
+    color: var( -- brand_primary);
+}
+
+.rowlessonsand-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+    }
+}
+
+.column {
+    gap: var( -- space-4xl);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: start;
+    @media only screen and (max-width: 1050px) {
+        align-self: stretch;
+    }
+}
+.columnnumber {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.columnvector {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.image-8 {
+    width: 16px;
+    height: 16px;
+}
+
+.grid_one {
+    height: 32px;
+    width: 32px;
+}
